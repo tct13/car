@@ -21,7 +21,9 @@ var Car = function (color, convertible) {
     // return oldSpeed + " " + this.speed
   }
 
-  // this.newcolor
+  this.addColor = function(newColor) {
+    this.color = newColor
+  }
 
 }
 

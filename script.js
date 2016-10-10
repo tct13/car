@@ -16,5 +16,5 @@ var car1 = new carConstructor1('red', true)
 console.log(car1.color + " car's speed is " + car1.speed)
 
 car1.accelerate(10)
-console.log ( car1.accelerate(10) )
-console.log ( typeof car1.accelerate(10) )
+console.log ( car1.speed )
+console.log ( typeof car1.speed )
